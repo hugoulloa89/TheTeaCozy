@@ -1,0 +1,129 @@
+ html, body {
+   font-family: 'Helvetica';
+   font-size: 22px;
+   color:seashell;
+    background-color: #000;
+   opacity: 0.9;
+}
+
+h2 , h4 , h5 {
+    text-align: center;
+}
+
+.header {
+    position: sticky;
+    width: 100%;
+    min-height: 69px;
+    border-bottom: 1px solid seashell;
+    
+
+}
+
+#logo {
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin: 10;
+    z-index: 2;
+}
+
+
+.navigation > li {
+    display: inline;
+    vertical-align: right;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding-inline-end: 30px;
+    
+    
+}
+
+.navigation a:visited {
+    color:gray;
+}
+
+.bannerMission {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+    height: 700px;
+    width: 100%;
+    padding-bottom: 60px;
+    opacity: .9;
+}
+
+.mission  {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+   
+    background-color: #000;
+    text-align: center;
+    
+}
+
+.featuredTea {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.featuredTea img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.location {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    align-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+    padding-bottom: 60px;
+    opacity: .9;
+    line-height: 65px;
+}
+
+.downtown , .bayside , .oakdale {
+    background-color: #000;
+    width: 300px;
+    height: 300px;
+     margin: 15px 40px;
+     opacity: 1;
+     text-align: center;
+     padding: 10px 10px;
+}
+
+
+
+footer {
+    height: 200px;
+}
